@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Awards | William Lee</title>
+
+    <script src="http://www.google.com/jsapi" type="text/javascript"></script>
+
+    <script type="text/javascript">google.load("jquery", "1.3.2");</script>
+
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="js/script.js"></script>
+
+    <!--using library-->
+    <link rel="stylesheet" href="vanillabox-0.1.7/vanillabox/theme/bitter/vanillabox.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script type="text/javascript" src="vanillabox-0.1.7/vanillabox/jquery.vanillabox-0.1.7.min.js"></script>
+    <!--end library-->
+
+</head>
+
+<body style="padding-top:50px;">
+
+
+<nav class="navbar navbar-default navbar-fixed-top" id="bar">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand name barlink" href="index.html">
+                <b>William J. Lee</b>
+            </a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="barlink"><a href="index.html"><b>About</b></a></li>
+            <li class="barlink"><a href="experience.html"><b>Experience</b></a></li>
+            <li class="barlink"><a href="projects.html"><b>Projects</b></a></li>
+            <li class="barlink"><a href="awards.html"><b>Awards</b></a></li>
+            <li class="barlink"><a href="doc/William_Lee_Resume.pdf" target="_blank"><b>Resume</b></a></li>
+            <!--<li><a href="#">Contact Me!</a></li>-->
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li class="barlink"><a href="contact.html"><b>Contact Me!</b></a></li>
+        </ul>
+    </div>
+</nav>
+
+<!--<div class="tile" id="tile1">-->
+<!--experience 1-->
+<!--</div>-->
+<!--<div class="tile" id="tile2">-->
+<!--experience 1-->
+<!--</div>-->
+
+<div class="title" style="background-color:#D9D87C">
+    <h1 class="titlecontent"><i>What I've done...</i></h1>
+</div>
+
+<div class="tile" id="tile1">
+
+    <div class="picdiv">
+        <img src="icons/cspr-icon.png" width="100" height="100">
+    </div>
+
+    <div>
+        <h1 class="exptitle">CodeSprint LA Programming Contest</h1>
+        <h1 class="expcontent">3rd Place, Individual Award, Top Freshman Team</h1>
+    </div>
+
+</div>
+
+<div class="tile" id="tile2">
+    <div class="picdiv">
+        <img src="icons/hr-icon.jpg" width="100" height="100">
+    </div>
+
+    <h1 class="exptitle">Quartz & HackerRank "The Next Billion Coders" Challenge</h1>
+    <h1 class="expcontent">Winner, Invited to attend "The Next Billion" Conference in San Francisco</h1>
+</div>
+
+<div class="tile" id="tile3">
+    <div class="picdiv">
+        <img src="icons/sp.png" width="100" height="20">
+    </div>
+
+    <h1 class="exptitle">SpaceX</h1>
+    <h1 class="expcontent">Preliminary acceptance to Internship Program</h1>
+</div>
+
+<div class="tile" id="tile4">
+    <div class="picdiv">
+        <img src="icons/prog-icon.png" width="100" height="70">
+    </div>
+
+    <h1 class="exptitle">CSULA ProgFest Programming Contest</h1>
+    <h1 class="expcontent">1st Place</h1>
+</div>
+
+<div class="tile" id="tile5">
+    <div class="picdiv">
+        <img src="icons/usa-icon.png" width="100" height="70">
+    </div>
+
+    <h1 class="exptitle">USA Computing Olympiad (USACO)</h1>
+    <h1 class="expcontent">Gold level</h1>
+</div>
+
+<div style="display:none; text-align: right;" id="tile6">
+    © William Lee 2017
+</div>
+
+<script>
+$(document).ready(function() {
+
+pushdowny();
+
+$('#tile1').fadeIn("slow", function(){
+    $('#tile2').fadeIn("slow", function(){
+        $('#tile3').fadeIn("slow", function(){
+            $('#tile4').fadeIn("slow", function(){
+                $('#tile5').fadeIn("slow", function(){
+                    $('#tile6').fadeIn("fast", function(){
+
+                    });
+                });
+            });
+        });
+    });
+});
+
+})
+</script>
+
+
+
+</body>
+</html>
