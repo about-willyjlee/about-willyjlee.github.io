@@ -93,7 +93,7 @@
 .picdiv{
     float:left;
     position:absolute;
-
+    margin-left:calc(5% + 50px);
     top: 50%;
     transform: translate(-50%, -50%);
 }
