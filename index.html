@@ -24,9 +24,18 @@
     <script type="text/javascript" src="vanillabox-0.1.7/vanillabox/jquery.vanillabox-0.1.7.min.js"></script>
     <!--end library-->
 
+    <script language="JavaScript">
+        function preloader()
+         {
+         loadingImage = new Image();
+         loadingImage.src = "pics/me8_crop.jpg";
+         console.log("preload");
+         }
+    </script>
+
 </head>
 
-<body style="padding-top: 50px;">
+<body style="padding-top: 50px;" onload="javascript:preloader()">
 
 <!--<div>-->
     <!--<div class="card top">-->
