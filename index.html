@@ -79,31 +79,57 @@
 </div>
 
 
+<!--<div>-->
 
-<div id="title2" style="display:none; margin-bottom: 0; padding-bottom: 0;">
-    <img  src="pics/me8_crop.jpg" width="100%" style="display:block;
-        margin-left: auto; margin-right: auto; " >
-</div>
-
-
-
+<!--<div id="title2" style="display:none; margin-bottom: 0; padding-bottom: 0; background-color: #F1F1F1;">-->
+    <!--<img  src="pics/me_c_crop.jpg" width="300px" style="display:block;-->
+        <!--margin-left: auto; margin-right: auto; padding-top:3%; padding-bottom:3%;" class="img-circle">-->
+<!--</div>-->
 
 
-<!--<div id="title2" style="display:none; margin-bottom: 25px; padding-bottom: 25px;">-->
-    <!--<img class="img-circle" src="pics/me2.JPG" width="400" height="400" style="display:block;-->
-        <!--margin-left: auto; margin-right: auto;">-->
+    <!---->
+<!--&lt;!&ndash;<div id="title2" style="display:none; margin-bottom: 25px; padding-bottom: 25px;">&ndash;&gt;-->
+    <!--&lt;!&ndash;<img class="img-circle" src="pics/me2.JPG" width="400" height="400" style="display:block;&ndash;&gt;-->
+        <!--&lt;!&ndash;margin-left: auto; margin-right: auto;">&ndash;&gt;-->
+<!--&lt;!&ndash;</div>&ndash;&gt;-->
+
+
+
+<!--<div class="title" id="title3" style=" display:none; position:relative; margin-top:5px; padding-top:25px; padding-bottom:25px; margin-bottom:0px;">-->
+    <!--<h1 class="abouttxt" style="padding-left: 25%;">I'm an aspiring software developer and CS major at UCLA.</h1>-->
+    <!--<h1 class="abouttxt" style="padding-left: 30%;">Coding is my passion.</h1>-->
+    <!--<h1 class="abouttxt" style="padding-left: 35%;">Improving lives is my mission.</h1>-->
+    <!--<h1 class="abouttxt" style="padding-left: 40%;">Music is my rhythm.</h1>-->
+<!--</div>-->
+
+
 <!--</div>-->
 
 
 
 
 
-<div class="title" id="title3" style="display:none; position:relative; margin-top:5px; padding-top:25px; padding-bottom:25px; margin-bottom:0px;">
-    <h1 class="abouttxt" style="padding-left: 25%;">I'm an aspiring software developer and CS major at UCLA.</h1>
-    <h1 class="abouttxt" style="padding-left: 30%;">Coding is my passion.</h1>
-    <h1 class="abouttxt" style="padding-left: 35%;">Improving lives is my mission.</h1>
-    <h1 class="abouttxt" style="padding-left: 40%;">Music is my rhythm.</h1>
-</div>
+    <div class="title" id="title3" style="display:none;  margin-bottom:0px; height:450px;">
+        <div style="float:left; padding-left:10%; padding-right:10%; margin-top:3%;">
+            <img  src="pics/me_c_crop.jpg" width="300px" class="img-circle">
+        </div>
+
+
+        <div style="margin-left:35%; margin-top:5%;">
+
+            <h1 class="abouttxt">I'm an aspiring software developer and CS major at UCLA.</h1>
+            <br>
+            <h1 class="abouttxt" style="padding-left:5%;">Coding is my passion.</h1>
+            <br>
+            <h1 class="abouttxt" style="padding-left:8%;">Improving lives is my mission.</h1>
+            <br>
+            <h1 class="abouttxt" style="padding-left:11%">Music is my rhythm.</h1>
+
+        </div>
+
+    </div>
+
+
 
 <div class="title" id="title4" style="display:none; background-color:#1E214D; margin-bottom:0;">
     <h3 style="padding-left:5%; font-size:22px;"><font color="#E3F632">void</font> <font color="#E76B36">MyLife()</font>
@@ -206,7 +232,7 @@ $('#title1').fadeIn("slow", function(){
 
     $("#hello").hide().html("<i>Hello, I'm William</i>").slideDown('slow', function(){
 
-        $('#title2').fadeIn("slow", function(){
+        //$('#title2').fadeIn("slow", function(){
             $('#title3').fadeIn("slow", function(){
                 $('#title4').fadeIn("fast", function(){
                     $('#title5').fadeIn("fast", function(){
@@ -215,7 +241,7 @@ $('#title1').fadeIn("slow", function(){
                                 $('#tile4').fadeIn("fast", function(){
                                     $('#tile5').fadeIn("fast", function(){
                                         $('#title6').fadeIn("fast", function(){
-                                            $("html,body").animate({ scrollTop: $('#title3').offset().top }, 1500);
+                                            //$("html,body").animate({ scrollTop: $('#title3').offset().top }, 1500);
                                         });
                                     });
                                 });
@@ -224,7 +250,7 @@ $('#title1').fadeIn("slow", function(){
                     });
                 });
             });
-        });
+        //});
     });
 });
 
