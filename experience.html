@@ -58,7 +58,25 @@
     <h1 class="titlecontent"><i>What I've been up to...</i></h1>
 </div>
 
+
 <div class="tile" id="tile1">
+
+    <div class="picdiv">
+        <img src="icons/cu_pic.png" width="110" height="110">
+    </div>
+
+    <div>
+        <h1 class="exptitle">Google CodeU</h1>
+        <h1 class="expjob">Program Participant</h1>
+        <h1 class="exploc"><i>Virtual</i></h1>
+        <h1 class="expdate">Since May 2017</h1><br>
+        <h1 class="expcontent">Exclusive Google program to work in a team alongside Google engineers to develop Java Chat Server</h1>
+    </div>
+
+</div>
+
+
+<div class="tile" id="tile2">
 
     <div class="picdiv">
     <img src="icons/urp_logo.JPG" width="110" height="110">
@@ -66,16 +84,16 @@
 
     <div>
         <h1 class="exptitle">UCLA Rocket Project</h1>
-        <h1 class="expjob">Programming/Electronics Lead</h1>
+        <h1 class="expjob">Software Engineer Lead</h1>
         <h1 class="exploc"><i>Los Angeles, CA</i></h1>
-        <h1 class="expdate">Since November 2016</h1><br>
-        <h1 class="expcontent">Developing micro-controller and launch control program for wireless ignition of rocket</h1>
+        <h1 class="expdate">Since October 2016</h1><br>
+        <h1 class="expcontent">Design and develop launch controller for wireless rocket ignition on Raspberry Pi Apache server</h1>
         <h1 class="expcontent">Manage project timelines, documentation, and spending budget</h1>
     </div>
 
 </div>
 
-<div class="tile" id="tile2">
+<div class="tile" id="tile3">
     <div class="picdiv">
         <img src="icons/romela_logo.jpg" width="110" height="110">
     </div>
@@ -87,7 +105,7 @@
     <h1 class="expcontent">Developing Hexapod robot using LabVIEW library and Python</h1>
 </div>
 
-<div class="tile" id="tile3">
+<div class="tile" id="tile4">
     <div class="picdiv">
         <img src="icons/jet-logo.png" width="110" height="44">
     </div>
@@ -100,7 +118,7 @@
         Linux platform</h1>
 </div>
 
-<div class="tile" id="tile4">
+<div class="tile" id="tile5">
     <div class="picdiv">
         <img src="icons/uci_ics.png" width="110" height="110">
     </div>
@@ -112,7 +130,7 @@
     <h1 class="expcontent">Developed scripts in Java for parsing and formatting large BibTeX data sets</h1>
 </div>
 
-<div style="display:none; text-align: right;" id="tile5">
+<div style="display:none; text-align: right;" id="tile6">
     © William Lee 2017
 </div>
 
@@ -126,7 +144,9 @@ $('#tile1').fadeIn("slow", function(){
         $('#tile3').fadeIn("slow", function(){
             $('#tile4').fadeIn("slow", function(){
                 $('#tile5').fadeIn("fast", function(){
+                    $('#tile6').fadeIn("fast", function(){
 
+                    });
                 });
             });
         });
