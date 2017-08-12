@@ -178,8 +178,14 @@
 <div class="tile" id="title5" style="display:none; margin-top:0; margin-bottom:0;">
     <div class="row text-center" id="contactdiv">
 
+        <div class="col-sm-3 col-xs-6 fourth-box" id="tile5" style="height:140px;">
+            <h1><span class="glyphicon glyphicon-play"></span></h1>
+            <h3>Contact Me:</h3>
+            <p>&nbsp;</p><br>
+        </div>
+
         <a href="mailto::williamjlee1@gmail.com" target="_blank">
-            <div class="col-sm-3 col-xs-6 first-box" id="tile2">
+            <div class="col-sm-3 col-xs-6 first-box" id="tile2" style="height:140px;">
                 <h1><span class="glyphicon glyphicon-envelope"></span></h1>
                 <h3>Email</h3>
                 <p>williamjlee1@gmail.com</p><br>
@@ -187,7 +193,7 @@
         </a>
 
         <a href="https://github.com/willyjlee" target="_blank">
-            <div class="col-sm-3 col-xs-6 second-box" id="tile3">
+            <div class="col-sm-3 col-xs-6 second-box" id="tile3" style="height:140px;">
                 <h1><span class="glyphicon glyphicon-console"></span></h1>
                 <h3>Github</h3>
                 <p>@willyjlee</p><br>
@@ -196,18 +202,13 @@
 
         <a href="https://www.linkedin.com/in/william-j-lee-022060127/"
            target="_blank">
-            <div class="col-sm-3 col-xs-6 third-box" id="tile4">
+            <div class="col-sm-3 col-xs-6 third-box" id="tile4" style="height:140px;">
                 <h1><span class="glyphicon glyphicon-user"></span></h1>
                 <h3>LinkedIn</h3>
                 <p>William Lee</p><br>
             </div>
         </a>
 
-        <div class="col-sm-3 col-xs-6 fourth-box" id="tile5">
-            <h1><span class="glyphicon glyphicon-earphone"></span></h1>
-            <h3>Phone</h3>
-            <p>949-350-4549</p><br>
-        </div>
     </div>
 
 </div>
@@ -236,10 +237,10 @@ $('#title1').fadeIn("slow", function(){
             $('#title3').fadeIn("slow", function(){
                 $('#title4').fadeIn("fast", function(){
                     $('#title5').fadeIn("fast", function(){
-                        $('#tile2').fadeIn("fast", function(){
-                            $('#tile3').fadeIn("fast", function(){
-                                $('#tile4').fadeIn("fast", function(){
-                                    $('#tile5').fadeIn("fast", function(){
+                        $('#tile5').fadeIn("fast", function(){
+                            $('#tile2').fadeIn("fast", function(){
+                                $('#tile3').fadeIn("fast", function(){
+                                    $('#tile4').fadeIn("fast", function(){
                                         $('#title6').fadeIn("fast", function(){
                                             //$("html,body").animate({ scrollTop: $('#title3').offset().top }, 1500);
                                         });

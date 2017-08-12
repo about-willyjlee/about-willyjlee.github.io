@@ -1,5 +1,5 @@
 function centercdiv(){
-        //console.log("hi");
+        console.log("hi");
         var cw=$('#contactdiv').width();
         var w=$(window).width();
         var left=0;
